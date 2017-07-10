@@ -1,0 +1,35 @@
+{
+    "name": "eutkin/aadphp",
+    "description": "Microsoft Azure Active Directory Authentication Library (AAD) for PHP",
+    "license": "MIT",
+    "keywords": [
+        "openidconnect",
+        "oauth2",
+        "oidc",
+        "azuread",
+        "azure",
+        "identity",
+        "sso",
+        "single sign on"
+    ],
+    "authors": [
+        {
+            "name": "James McQuillan",
+            "email": "james.mcquillan@remote-learner.net",
+            "homepage": "http://www.remote-learner.net",
+            "role": "Developer"
+        }
+    ],
+    "version": "0.9.0",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "microsoft\\aadphp\\": "src/"
+        }
+    }
+}
