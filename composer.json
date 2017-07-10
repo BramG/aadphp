@@ -20,7 +20,6 @@
             "role": "Developer"
         }
     ],
-    "version": "0.9.0",
     "require": {
         "php": ">=5.4.0"
     },
