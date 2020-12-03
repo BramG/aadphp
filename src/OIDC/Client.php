@@ -284,7 +284,6 @@ class Client implements \microsoft\aadphp\OIDC\ClientInterface
             'state' => $this->getnewstate($nonce, $stateparams),
             'response_mode' => 'form_post',
             'nonce' => $nonce,
-            'resource' => $this->resource,
         ];
 
         if ($this->authflow == 'hybrid') {
